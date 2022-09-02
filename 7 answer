@@ -1,0 +1,3 @@
+#Question7
+print("Name \tAge\tcountry\tcity");
+print("Asabeneh 250\tFinland\tHelsinki");
