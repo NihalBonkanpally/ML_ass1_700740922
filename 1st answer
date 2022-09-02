@@ -1,0 +1,20 @@
+#question1
+ages=[19,22,19,24,20,25,26,24,25,24]
+sorted_ages=sorted(ages);
+min_age=min(sorted_ages);
+max_age=max(sorted_ages);
+print(f"min and max ages are {min_age} {max_age}");
+sorted_ages.append(min_age);
+sorted_ages.append(max_age);
+len_of_sorted_age=len(sorted_ages);
+if len_of_sorted_age%2==0:
+    median1=sorted_ages[len_of_sorted_age//2];
+    median2=sorted_ages[len_of_sorted_age//2-1];
+    median=(median1+median2)//2;
+else:
+    median=sorted_ages[len_of_sorted_age//2];
+print(f"Median is {median}");
+average_age=sum(sorted_ages)/len_of_sorted_age;
+print(f"The average age is {average_age}");
+range_of_age=max(sorted_ages)-min(sorted_ages);
+print(f"Range of ages is {range_of_age}");
