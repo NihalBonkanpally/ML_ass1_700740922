@@ -1,0 +1,17 @@
+#Question4
+IT_companies={'Facebook','Google','Microsoft','Apple','IBM','Oracle','Amazon'};
+A={19,22,24,20,25,26};
+B={19,22,20,25,26,24,28,27};
+age=[22,19,24,25,26,24,25,24];
+len_IT_companies=len(IT_companies);print(len_IT_companies);
+IT_companies.add('Twitter');print(IT_companies);
+IT_companies.update({'Deloitte','Valuelabs','HSBC'});print(IT_companies);
+IT_companies.remove('IBM');print(IT_companies);
+#Whenever we use remove method to remove any element which I not present in the set,it will throw an error.Whereas discard will not throw any error even though there is no element found.
+C=A.union(B);print(C);
+A_inter_B=A.intersection(B);print(A_inter_B);subset_check=A.issubset(B);print(subset_check);
+disjoint_check=A.isdisjoint(B);print(disjoint_check);E=A.union(B);print(E);D=B.union(A);print(D);sym_check=A.symmetric_difference(B);print(sym_check);A.clear();print(A);B.clear();print(B);C.clear();print(C);D.clear();print(D);E.clear();print(E);
+len_ages=len(age);print(len_ages);
+age_set=set(age);
+len_age_set=len(age_set);print(len_age_set);
+compare_len=len_ages-len_age_set;print(compare_len);
