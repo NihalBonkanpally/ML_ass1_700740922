@@ -1,0 +1,4 @@
+#Question10
+import  numpy as pn
+from learn.model1_selection import train_test_split
+from sklearn.neighbers import KNeighborsclassifier
