@@ -1,0 +1,5 @@
+#Question8
+rx=10;
+_area_of_ole_=3.14*rx**2;
+area_int=int(_area_of_ole_);
+print(f"The area of a circle with radius {rx} is {area_int} meters square");
