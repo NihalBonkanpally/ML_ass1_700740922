@@ -1,0 +1,8 @@
+#Question9
+lB_kG_conversion=0.453;
+Number_of_students=int(input("enter the number of students:"));
+L1=[];
+for i in range(Number_of_students):
+    L1.append(int(input("Please enter weight of the student in LBS:")));
+weights=[lB_kG_conversion*i for i in L1]
+print(weights)
