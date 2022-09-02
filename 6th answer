@@ -1,0 +1,8 @@
+#question 6
+line="I am a teacher and I love to inspire and teach people"
+words_line=line.split(' ');
+unique_words=set(words_line);
+print("the unique words are:");
+print(unique_words)
+print("Number of unique words present in above sentence:")
+print(len(unique_words));
