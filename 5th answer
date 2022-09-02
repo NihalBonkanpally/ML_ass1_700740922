@@ -1,0 +1,12 @@
+#Question5
+r=30;
+_area_of_circle_=3.14*r*r;
+_circum_of_circle_=4*3.14*r;
+print(_area_of_circle_);
+print(_circum_of_circle_);
+print("Enter any radius");
+r3=int(input());
+r1=str(r3);
+print("the area of circle of radius "+ r1+" is");
+area=3.14*r3*r3;
+print(area);
