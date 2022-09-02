@@ -1,0 +1,9 @@
+#Question3
+SiSters=('Getha','Sitha','Latha');
+BroThers=('abhi','ballu','chai');
+SiB=SiSters + BroThers;
+print(SiB);
+siblings=len(SiB);
+print(siblings);
+Parents=SiB+('Ram','Seetha');
+print(Parents);
