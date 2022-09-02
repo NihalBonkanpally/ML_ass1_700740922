@@ -1,0 +1,18 @@
+#Question2
+dog={};
+dog['name']='German Shepherd';dog['color']='brown';dog['breed']='German Shepherd';
+dog['legs']=2;dog['age']=6;
+student=dict();
+student['first_name']='Nihal';student['last_name']='Bonkanpally';
+student['gender']='Male';student['age']='23';
+student['Marital_status']='No';student['skills']=['C','java'];
+student['country']=['India'];student['city']=['Nizamabad'];
+student['address']='Nizamabad Local';print(student);
+len_of_student=len(student);print(len_of_student);
+skills_of_student=student.get('skills');print(skills_of_student);print(type(skills_of_student));
+student.update({'skills':['C','Java','Python','Angular']});print(student);
+student_keys=list(student.keys());print(student_keys);
+student_values=list(student.values());print(student_values);
+
+
+
